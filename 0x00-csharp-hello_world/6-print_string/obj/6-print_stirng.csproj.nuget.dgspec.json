@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\benaj\\holberton\\0x00-csharp-hello_world\\3-writeline\\3-writeline.csproj": {}
+    "C:\\Users\\benaj\\holberton\\0x00-csharp-hello_world\\6-print_stirng\\6-print_stirng.csproj": {}
   },
   "projects": {
-    "C:\\Users\\benaj\\holberton\\0x00-csharp-hello_world\\3-writeline\\3-writeline.csproj": {
+    "C:\\Users\\benaj\\holberton\\0x00-csharp-hello_world\\6-print_stirng\\6-print_stirng.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\benaj\\holberton\\0x00-csharp-hello_world\\3-writeline\\3-writeline.csproj",
-        "projectName": "3-writeline",
-        "projectPath": "C:\\Users\\benaj\\holberton\\0x00-csharp-hello_world\\3-writeline\\3-writeline.csproj",
+        "projectUniqueName": "C:\\Users\\benaj\\holberton\\0x00-csharp-hello_world\\6-print_stirng\\6-print_stirng.csproj",
+        "projectName": "6-print_stirng",
+        "projectPath": "C:\\Users\\benaj\\holberton\\0x00-csharp-hello_world\\6-print_stirng\\6-print_stirng.csproj",
         "packagesPath": "C:\\Users\\benaj\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\benaj\\holberton\\0x00-csharp-hello_world\\3-writeline\\obj\\",
+        "outputPath": "C:\\Users\\benaj\\holberton\\0x00-csharp-hello_world\\6-print_stirng\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

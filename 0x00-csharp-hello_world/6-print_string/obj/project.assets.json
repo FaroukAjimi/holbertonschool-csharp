@@ -694,11 +694,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\benaj\\holberton\\0x00-csharp-hello_world\\2-new_project\\2-new_project.csproj",
-      "projectName": "2-new_project",
-      "projectPath": "C:\\Users\\benaj\\holberton\\0x00-csharp-hello_world\\2-new_project\\2-new_project.csproj",
+      "projectUniqueName": "C:\\Users\\benaj\\holberton\\0x00-csharp-hello_world\\6-print_stirng\\6-print_stirng.csproj",
+      "projectName": "6-print_stirng",
+      "projectPath": "C:\\Users\\benaj\\holberton\\0x00-csharp-hello_world\\6-print_stirng\\6-print_stirng.csproj",
       "packagesPath": "C:\\Users\\benaj\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\benaj\\holberton\\0x00-csharp-hello_world\\2-new_project\\obj\\",
+      "outputPath": "C:\\Users\\benaj\\holberton\\0x00-csharp-hello_world\\6-print_stirng\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
