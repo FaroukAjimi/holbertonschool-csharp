@@ -7,7 +7,7 @@ namespace _4_print_hexa
         static void Main(string[] args)
         {
             for (int i = 0; i <= 98; i++)
-                Console.WriteLine("0x{0}", Convert.ToString(i, 16));
+                Console.WriteLine("{1} = 0x{0}", Convert.ToString(i, 16), i);
         }
     }
 }
