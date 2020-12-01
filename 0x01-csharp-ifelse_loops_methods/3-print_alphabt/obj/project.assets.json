@@ -694,11 +694,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\benaj\\holberton\\0x01-csharp-ifelse_loops_methods\\3-print_alphabet\\3-print_alphabet.csproj",
-      "projectName": "3-print_alphabet",
-      "projectPath": "C:\\Users\\benaj\\holberton\\0x01-csharp-ifelse_loops_methods\\3-print_alphabet\\3-print_alphabet.csproj",
+      "projectUniqueName": "C:\\Users\\benaj\\holberton\\0x01-csharp-ifelse_loops_methods\\3-print_alphabt\\3-print_alphabt.csproj",
+      "projectName": "3-print_alphabt",
+      "projectPath": "C:\\Users\\benaj\\holberton\\0x01-csharp-ifelse_loops_methods\\3-print_alphabt\\3-print_alphabt.csproj",
       "packagesPath": "C:\\Users\\benaj\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\benaj\\holberton\\0x01-csharp-ifelse_loops_methods\\3-print_alphabet\\obj\\",
+      "outputPath": "C:\\Users\\benaj\\holberton\\0x01-csharp-ifelse_loops_methods\\3-print_alphabt\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
