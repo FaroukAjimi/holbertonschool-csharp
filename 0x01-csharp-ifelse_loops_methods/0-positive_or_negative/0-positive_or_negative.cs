@@ -9,7 +9,7 @@ class Program
         Console.Write("{0} is ", number); 
         if (number > 0)
             {
-                Console.WriteLine("positive");
+            Console.WriteLine("positive");
             }
         else if (number < 0)
             {
