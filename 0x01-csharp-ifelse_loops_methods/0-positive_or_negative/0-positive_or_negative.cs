@@ -11,13 +11,14 @@ class Program
             {
             Console.WriteLine("positive");
             }
+        else if (number == 0)
+            {
+                Console.WriteLine("zero");
+            } 
         else if (number < 0)
             {
                 Console.WriteLine("negative");
             }
-        else
-            {
-                Console.WriteLine("zero");
-            } 
+     
     }
 }
