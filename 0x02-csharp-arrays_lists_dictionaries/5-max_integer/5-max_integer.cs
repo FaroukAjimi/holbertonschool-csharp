@@ -10,11 +10,12 @@ using System.Collections.Generic;
                 Console.WriteLine("List is empty");
                 return(-1);
             }
-            for (int i = 0; i < myList.Count; i++)
+            for (int i = 0; i < myList.Count - 1; i++)
             {
                 if (myList[i] > max)
                     max = myList[i];
             }
+            Console.WriteLine(myList.Count);
             return(max);
         }
     }
