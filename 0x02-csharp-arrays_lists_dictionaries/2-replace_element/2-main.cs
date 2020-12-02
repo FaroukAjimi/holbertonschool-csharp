@@ -7,7 +7,7 @@ class Program
         int[] array = {0, 1, 2, 3, 4, 5, 6};
 
         PrintArray(array);
-        Array.ReplaceElement(array, 1, 98);
+        Array.ReplaceElement(array, -7, 98);
         PrintArray(array);
     }
 
