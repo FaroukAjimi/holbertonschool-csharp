@@ -7,7 +7,7 @@ using System.Collections.Generic;
             int max = 0;
             if (myList.Count == 0)
             {
-                Console.Write("List is empty");
+                Console.WriteLine("List is empty");
                 return(-1);
             }
             for (int i = 0; i < myList.Count; i++)
