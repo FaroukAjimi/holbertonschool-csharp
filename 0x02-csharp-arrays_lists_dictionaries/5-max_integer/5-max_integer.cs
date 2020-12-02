@@ -12,7 +12,6 @@ using System.Collections.Generic;
             }
             for (int i = 0; i < myList.Count; i++)
             {
-                Console.WriteLine(i);
                 if (myList[i] > max)
                     max = myList[i];
             }
