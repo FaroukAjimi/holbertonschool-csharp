@@ -15,7 +15,6 @@ using System.Collections.Generic;
                 if (myList[i] > max)
                     max = myList[i];
             }
-            Console.WriteLine(myList.Count);
             return(max);
         }
     }
