@@ -3,7 +3,7 @@
     {
         public static int elementAt(int[] array, int index)
         {
-            if(index >=  0 && index <= array.Length)
+            if(index >=  0 && index < array.Length)
                 return(array[index]);
             else
             {
