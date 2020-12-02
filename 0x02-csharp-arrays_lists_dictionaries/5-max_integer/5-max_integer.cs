@@ -4,7 +4,7 @@ using System.Collections.Generic;
     {
         public static int MaxInteger(List<int> myList)
         { 
-            int max = 1;
+            int max = myList[0];
             if (myList.Count == 0)
             {
                 Console.WriteLine("List is empty");
