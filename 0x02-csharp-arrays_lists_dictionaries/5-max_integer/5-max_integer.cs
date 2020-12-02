@@ -1,12 +1,15 @@
 ﻿using System;
-
-namespace _5_max_integer
-{
-    class Program
+using System.Collections.Generic;
+    class List
     {
-        static void Main(string[] args)
-        {
-            Console.WriteLine("Hello World!");
+        public static int MaxInteger(List<int> myList)
+        { 
+            int max = 0; 
+            for (int i = 0; i < myList.Count; i++)
+            {
+                if (myList[i] > max)
+                    max = myList[i];
+            }
+            return(max);
         }
     }
-}
