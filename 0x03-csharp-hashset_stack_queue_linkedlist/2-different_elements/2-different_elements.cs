@@ -1,12 +1,29 @@
 ﻿using System;
+using System.Collections.Generic;
 
-namespace _2_different_elements
-{
-    class Program
+
+    class List
     {
-        static void Main(string[] args)
+        public static List<int> DifferentElements(List<int> list1, List<int> list2)
         {
-            Console.WriteLine("Hello World!");
+            List<int> l = new List<int>();
+            foreach(var i in list1)
+            {
+                if(list2.Contains(i))
+                {
+                    continue;
+                }
+                l.Add(i);
+            }
+            foreach(var i in list2)
+            {
+                if(list1.Contains(i))
+                {
+                    continue;
+                }
+                l.Add(i);
+            }
+            l.Sort();
+            return(l);
         }
     }
-}
