@@ -1,12 +1,18 @@
 ﻿using System;
+using System.Collections.Generic;
 
-namespace _1_common_elements
-{
-    class Program
+    class List
     {
-        static void Main(string[] args)
+        public static List<int> CommonElements(List<int> list1, List<int> list2)
         {
-            Console.WriteLine("Hello World!");
+            List<int> l = new List<int>();
+            foreach(var i in list1)
+            {
+                if(list2.Contains(i))
+                {
+                    l.Add(i);
+                }
+            }
+            return(l);
         }
     }
-}
