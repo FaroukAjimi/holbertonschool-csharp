@@ -25,11 +25,12 @@ using System.Collections.Generic;
                 }
                 c += 1;
             }
-            while(c2 < index)
-            {
-                aStack.Pop();
-                c2++;
-            }
+            if (srch)
+                while(c2 < index)
+                {
+                    aStack.Pop();
+                    c2++;
+                }
             aStack.Push(newItem);
             Console.WriteLine("Number of items: {0}", c);
             if (c > 0)
