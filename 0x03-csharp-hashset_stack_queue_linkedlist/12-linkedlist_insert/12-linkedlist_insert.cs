@@ -1,12 +1,23 @@
 ﻿using System;
-
-namespace _12_linkedlist_insert
-{
-    class Program
+using System.Collections.Generic;
+    class LList
     {
-        static void Main(string[] args)
+        public static LinkedListNode<int> Insert(LinkedList<int> myLList, int n)
         {
-            Console.WriteLine("Hello World!");
+            List<int> l = new List<int>();
+            int c = 0;
+            myLList.AddFirst(n);
+            foreach(var itm in myLList)
+                l.Add(itm);
+            c = myLList.Count;
+            for(int i = 1; i <= c; i++)
+                myLList.RemoveFirst();         
+            l.Sort(); 
+            foreach(var it in l)
+            {
+                myLList.AddLast(it);
+            }
+            return(myLList.First);
         }
     }
-}
+
