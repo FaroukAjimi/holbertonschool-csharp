@@ -25,8 +25,8 @@ using System.Collections.Generic;
                 }
                 c += 1;
             }
-            if (srch)
-                while(c2 < index)
+            if (srch == true)
+                while(c2 <= index)
                 {
                     aStack.Pop();
                     c2++;

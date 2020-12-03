@@ -7,7 +7,7 @@ class Program
     static void Main(string[] args)
     {
         Stack<string> aStack = new Stack<string>();
-
+         aStack.Push("Javascript");
 
         foreach (string item in aStack)
             Console.WriteLine(item);
