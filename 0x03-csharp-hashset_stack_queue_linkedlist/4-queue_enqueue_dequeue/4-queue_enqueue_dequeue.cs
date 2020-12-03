@@ -34,7 +34,7 @@ using System.Collections.Generic;
             aQueue.Enqueue(newItem);
             Console.WriteLine("Number of items: {0}", c);
             if (c > 0)
-                Console.WriteLine("Top item: {0}", top);
+                Console.WriteLine("First item: {0}", top);
             else
                 Console.WriteLine("Queue is empty");
             Console.WriteLine("Queue contains \"{0}\": {1}", search, srch);
