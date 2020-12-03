@@ -1,12 +1,14 @@
 ﻿using System;
-
-namespace _9_linkedlist_pop
-{
-    class Program
+using System.Collections.Generic;
+    class LList
     {
-        static void Main(string[] args)
+        public static int Pop(LinkedList<int> myLList)
         {
-            Console.WriteLine("Hello World!");
+            foreach(var i in myLList)
+            {  
+                myLList.RemoveFirst();
+                return(i);
+            }
+            return(0);
         }
     }
-}
