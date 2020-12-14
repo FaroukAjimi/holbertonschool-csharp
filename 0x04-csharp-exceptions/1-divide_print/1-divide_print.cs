@@ -5,20 +5,16 @@
     {
         public static void divide(int a, int b)
         {   
-            int r = 0;
-            string t = "";
-            string e = "";           
+            int r = 0;           
             try{
-            r = a / b;
-            e = string.Format("{0} / {1} = {2}", a, b, r); 
+                r = a / b;
             }
             catch (DivideByZeroException){
-            e = string.Format("{0} / {1} = {2}", a, b, 0);
-            t = "Cannot divide by zero";
+                r = 0;
+                Console.WriteLine("Cannot divide by zero");
             }
             finally {
-                Console.WriteLine(t);
-                Console.WriteLine(e);
+                Console.WriteLine("{0} / {1} = {2}", a, b, r);
             }            
         }
     }
