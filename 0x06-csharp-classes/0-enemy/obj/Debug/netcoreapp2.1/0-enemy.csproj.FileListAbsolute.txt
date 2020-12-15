@@ -9,3 +9,4 @@ C:\Users\benaj\holberton\0x06-csharp-classes\0-enemy\obj\Debug\netcoreapp2.1\0-e
 C:\Users\benaj\holberton\0x06-csharp-classes\0-enemy\obj\Debug\netcoreapp2.1\0-enemy.AssemblyInfo.cs
 C:\Users\benaj\holberton\0x06-csharp-classes\0-enemy\obj\Debug\netcoreapp2.1\0-enemy.dll
 C:\Users\benaj\holberton\0x06-csharp-classes\0-enemy\obj\Debug\netcoreapp2.1\0-enemy.pdb
+C:\Users\benaj\holberton\0x06-csharp-classes\0-enemy\bin\Debug\netcoreapp2.1\0-enemy.xml
