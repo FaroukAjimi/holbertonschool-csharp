@@ -24,5 +24,8 @@
         <member name="M:Enemies.Zombie.#ctor(System.Int32)">
             2nd public constructor zombie
         </member>
+        <member name="M:Enemies.Zombie.ToString">
+            override tostring
+        </member>
     </members>
 </doc>
