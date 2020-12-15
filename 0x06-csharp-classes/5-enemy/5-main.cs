@@ -21,7 +21,7 @@ class Program
 
         try
         {
-            newObject2 = new Enemies.Zombie(98);
+            newObject2 = new Enemies.Zombie();
             Console.WriteLine(newObject2.ToString());
         }
         catch (Exception e)
