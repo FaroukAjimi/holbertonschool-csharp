@@ -1,7 +1,5 @@
 ﻿using System;
-/*
-    Enemies class
-*/
+
 namespace Enemies
 {
     /// <summary>
