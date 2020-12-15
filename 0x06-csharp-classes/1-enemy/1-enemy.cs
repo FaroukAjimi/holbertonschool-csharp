@@ -8,8 +8,9 @@ namespace Enemies
     /// </summary>
     class Zombie
     {
+        /// public field health
         public int? health {get; set;} = null;
-        
+
         /// zombie init health to 0
         public Zombie()
         {
