@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>5-enemy</name>
+    </assembly>
+    <members>
+        <member name="T:Enemies.Zombie">
+            <summary>
+            this class does nothing
+            </summary>
+        </member>
+        <member name="F:Enemies.Zombie.health">
+            public field health
+        </member>
+        <member name="F:Enemies.Zombie.name">
+            private name
+        </member>
+        <member name="P:Enemies.Zombie.Name">
+            pub property
+        </member>
+        <member name="M:Enemies.Zombie.#ctor">
+            zombie init health to 0
+        </member>
+        <member name="M:Enemies.Zombie.#ctor(System.Int32)">
+            2nd public constructor zombie
+        </member>
+    </members>
+</doc>
