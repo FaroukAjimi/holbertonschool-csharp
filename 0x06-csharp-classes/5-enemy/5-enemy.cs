@@ -13,30 +13,30 @@ namespace Enemies
         private int health;
         /// private name
         private string name = "(No name)";
-        /// <summary> getter and setter </summary>
+        /// <summary> getter and setter. </summary>
         public string Name
         {
             get { return name;}
             set { name = value;}
         }
-        /// <sumary> set zombie to 0 </summary>
+        /// <summary> set zombie to 0. </summary>
         public Zombie()
         {
             this.health = 0;
         }
-        /// <sumary> zombie init value </summary>
+        /// <summary> zombie init value. </summary>
         public Zombie(int value)
         {
             if (value < 0)
                 throw new ArgumentException("Health must be greater than or equal to 0");
             health = value;
         }
-        /// <summary> get health </summary> 
+        /// <summary> getter health. </summary> 
         public int GetHealth()
         {
             return(health);
         }
-        /// <sumary>  override .tostring </summary> 
+        /// <summary>  override .tostring. </summary> 
         public override string ToString()
         {
             return ($"Zombie name: {name} / Total Health: {health}");

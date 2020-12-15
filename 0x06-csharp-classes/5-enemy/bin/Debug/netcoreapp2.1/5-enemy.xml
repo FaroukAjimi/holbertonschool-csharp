@@ -16,13 +16,19 @@
             private name
         </member>
         <member name="P:Enemies.Zombie.Name">
-            <summary> getter and setter </summary>
+            <summary> getter and setter. </summary>
         </member>
-        <!-- Badly formed XML comment ignored for member "M:Enemies.Zombie.#ctor" -->
-        <!-- Badly formed XML comment ignored for member "M:Enemies.Zombie.#ctor(System.Int32)" -->
+        <member name="M:Enemies.Zombie.#ctor">
+            <summary> set zombie to 0. </summary>
+        </member>
+        <member name="M:Enemies.Zombie.#ctor(System.Int32)">
+            <summary> zombie init value. </summary>
+        </member>
         <member name="M:Enemies.Zombie.GetHealth">
-            <summary> get health </summary> 
+            <summary> getter health. </summary> 
         </member>
-        <!-- Badly formed XML comment ignored for member "M:Enemies.Zombie.ToString" -->
+        <member name="M:Enemies.Zombie.ToString">
+            <summary>  override .tostring. </summary> 
+        </member>
     </members>
 </doc>
