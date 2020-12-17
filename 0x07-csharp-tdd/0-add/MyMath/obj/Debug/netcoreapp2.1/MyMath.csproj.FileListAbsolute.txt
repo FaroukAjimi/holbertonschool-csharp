@@ -1,0 +1,4 @@
+C:\Users\benaj\holberton\0x07-csharp-tdd\0-add\MyMath\obj\Debug\netcoreapp2.1\MyMath.csprojAssemblyReference.cache
+C:\Users\benaj\holberton\0x07-csharp-tdd\0-add\MyMath\obj\Debug\netcoreapp2.1\MyMath.csproj.CoreCompileInputs.cache
+C:\Users\benaj\holberton\0x07-csharp-tdd\0-add\MyMath\obj\Debug\netcoreapp2.1\MyMath.AssemblyInfoInputs.cache
+C:\Users\benaj\holberton\0x07-csharp-tdd\0-add\MyMath\obj\Debug\netcoreapp2.1\MyMath.AssemblyInfo.cs
