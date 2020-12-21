@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>9-shape</name>
+    </assembly>
+    <members>
+        <member name="T:Shape">
+            <summary> shape </summary>
+        </member>
+        <member name="M:Shape.Area">
+            <summary> area </summary>
+        </member>
+        <member name="T:Rectangle">
+            <summary> rec inh(shape) </summary>
+        </member>
+        <member name="P:Rectangle.Width">
+            <summary> int widht </summary>
+        </member>
+        <member name="P:Rectangle.Height">
+            <summary>int height</summary>
+        </member>
+        <member name="M:Rectangle.Area">
+            <summary> se area </summary>
+        </member>
+        <member name="M:Rectangle.ToString">
+            <summary> override string</summary>
+        </member>
+        <member name="T:Square">
+            <summary> square inh(rec) </summary>
+        </member>
+        <member name="P:Square.Size">
+            <summary> int size</summary>
+        </member>
+    </members>
+</doc>
