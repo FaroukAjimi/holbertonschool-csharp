@@ -1,0 +1,11 @@
+C:\Users\benaj\holberton\0x08-csharp-inheritance\0-is\obj\Debug\netcoreapp2.1\0-is.csprojAssemblyReference.cache
+C:\Users\benaj\holberton\0x08-csharp-inheritance\0-is\obj\Debug\netcoreapp2.1\0-is.csproj.CoreCompileInputs.cache
+C:\Users\benaj\holberton\0x08-csharp-inheritance\0-is\obj\Debug\netcoreapp2.1\0-is.AssemblyInfoInputs.cache
+C:\Users\benaj\holberton\0x08-csharp-inheritance\0-is\obj\Debug\netcoreapp2.1\0-is.AssemblyInfo.cs
+C:\Users\benaj\holberton\0x08-csharp-inheritance\0-is\bin\Debug\netcoreapp2.1\0-is.deps.json
+C:\Users\benaj\holberton\0x08-csharp-inheritance\0-is\bin\Debug\netcoreapp2.1\0-is.runtimeconfig.json
+C:\Users\benaj\holberton\0x08-csharp-inheritance\0-is\bin\Debug\netcoreapp2.1\0-is.runtimeconfig.dev.json
+C:\Users\benaj\holberton\0x08-csharp-inheritance\0-is\bin\Debug\netcoreapp2.1\0-is.dll
+C:\Users\benaj\holberton\0x08-csharp-inheritance\0-is\bin\Debug\netcoreapp2.1\0-is.pdb
+C:\Users\benaj\holberton\0x08-csharp-inheritance\0-is\obj\Debug\netcoreapp2.1\0-is.dll
+C:\Users\benaj\holberton\0x08-csharp-inheritance\0-is\obj\Debug\netcoreapp2.1\0-is.pdb

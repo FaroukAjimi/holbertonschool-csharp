@@ -1,0 +1,11 @@
+C:\Users\benaj\holberton\0x08-csharp-inheritance\10-liskov\bin\Debug\netcoreapp2.1\10-liskov.deps.json
+C:\Users\benaj\holberton\0x08-csharp-inheritance\10-liskov\bin\Debug\netcoreapp2.1\10-liskov.runtimeconfig.json
+C:\Users\benaj\holberton\0x08-csharp-inheritance\10-liskov\bin\Debug\netcoreapp2.1\10-liskov.runtimeconfig.dev.json
+C:\Users\benaj\holberton\0x08-csharp-inheritance\10-liskov\bin\Debug\netcoreapp2.1\10-liskov.dll
+C:\Users\benaj\holberton\0x08-csharp-inheritance\10-liskov\bin\Debug\netcoreapp2.1\10-liskov.pdb
+C:\Users\benaj\holberton\0x08-csharp-inheritance\10-liskov\obj\Debug\netcoreapp2.1\10-liskov.csprojAssemblyReference.cache
+C:\Users\benaj\holberton\0x08-csharp-inheritance\10-liskov\obj\Debug\netcoreapp2.1\10-liskov.csproj.CoreCompileInputs.cache
+C:\Users\benaj\holberton\0x08-csharp-inheritance\10-liskov\obj\Debug\netcoreapp2.1\10-liskov.AssemblyInfoInputs.cache
+C:\Users\benaj\holberton\0x08-csharp-inheritance\10-liskov\obj\Debug\netcoreapp2.1\10-liskov.AssemblyInfo.cs
+C:\Users\benaj\holberton\0x08-csharp-inheritance\10-liskov\obj\Debug\netcoreapp2.1\10-liskov.dll
+C:\Users\benaj\holberton\0x08-csharp-inheritance\10-liskov\obj\Debug\netcoreapp2.1\10-liskov.pdb
