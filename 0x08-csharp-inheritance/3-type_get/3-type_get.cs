@@ -1,8 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Reflection;
+    /// <summary> class obj </summary>
     class Obj
     {
+        /// <summary> class obj </summary>
         public static void Print(object myObj)
         {
             TypeInfo t =  myObj.GetType().GetTypeInfo();
