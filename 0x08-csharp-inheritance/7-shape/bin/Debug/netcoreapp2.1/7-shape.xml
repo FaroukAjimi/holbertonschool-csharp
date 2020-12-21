@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>7-shape</name>
+    </assembly>
+    <members>
+        <member name="T:Shape">
+            <summary> class shape </summary>
+        </member>
+        <member name="M:Shape.Area">
+            <summary> virtual int </summary>
+        </member>
+        <member name="T:Rectangle">
+            <summary> rectangle inh(shape) </summary>
+        </member>
+        <member name="P:Rectangle.Width">
+            <summary> integer widht </summary>
+        </member>
+        <member name="P:Rectangle.Height">
+            <summary> height </summary>
+        </member>
+        <member name="M:Rectangle.Area">
+            <summary> area override </summary>
+        </member>
+        <member name="M:Rectangle.ToString">
+            <summary> override to string </summary>
+        </member>
+    </members>
+</doc>
