@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>8-shape</name>
+    </assembly>
+    <members>
+        <member name="T:Shape">
+            <summary> class shape </summary>
+        </member>
+        <member name="M:Shape.Area">
+            <summary> </summary>
+        </member>
+        <member name="T:Rectangle">
+            <summary> class rectangle ing(shape) </summary>
+        </member>
+        <member name="P:Rectangle.Width">
+            <summary> int width </summary>
+        </member>
+        <member name="P:Rectangle.Height">
+            <summary> int height </summary>
+        </member>
+        <member name="M:Rectangle.Area">
+            <summary> override area </summary>
+        </member>
+        <member name="M:Rectangle.ToString">
+            <summary> overrode to string </summary>
+        </member>
+        <member name="T:Square">
+            <summary> squre rectanlge </summary>
+        </member>
+        <member name="P:Square.Size">
+            <summary> int size </summary>
+        </member>
+    </members>
+</doc>
