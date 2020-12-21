@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>6-shape</name>
+    </assembly>
+    <members>
+        <member name="T:Shape">
+            <summary> </summary>
+        </member>
+        <member name="M:Shape.Area">
+            <summary> </summary>
+        </member>
+        <member name="T:Rectangle">
+            <summary> class rectangle inh(shape) </summary>
+        </member>
+        <member name="P:Rectangle.Width">
+            <summary> public int width </summary>
+        </member>
+        <member name="P:Rectangle.Height">
+            <summary> public height </summary>
+        </member>
+    </members>
+</doc>
