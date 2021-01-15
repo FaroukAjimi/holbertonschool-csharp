@@ -1,6 +1,9 @@
 ﻿using System;
+
+    /// <summary> VectorMath is Class Specified for Vectors Caluculations </summary>
     class VectorMath
     {
+        /// <summary> Magnitude is method of Length of a vector </summary>
         public static double Magnitude(double[] vector)
         {
             if (vector.Length < 2)
