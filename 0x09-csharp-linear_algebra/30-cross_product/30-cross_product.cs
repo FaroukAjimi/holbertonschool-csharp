@@ -1,7 +1,11 @@
 using System;
-/// <summary> VectorMath is a class for vectors calculations </summary>
+/// <summary>
+///VectorMath is a class for vectors calculations
+/// </summary>
 class VectorMath{
-    /// <summary> crossProduct is a function that calculates the crossproduct of two vectors </summary>
+    /// <summary> 
+    /// crossProduct is a function that calculates the crossproduct of two vectors 
+    /// </summary>
     public static double[] CrossProduct(double[] vector1, double[] vector2)
     {
     if (vector1.Length != 3 || vector2.Length != 3)

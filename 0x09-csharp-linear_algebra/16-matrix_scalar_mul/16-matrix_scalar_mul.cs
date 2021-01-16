@@ -1,7 +1,11 @@
 using System;
-/// <summary> MatrixMath is a class that performs Matrices operations</summary>
+/// <summary>
+/// MatrixMath is a class that performs Matrices operations
+/// </summary>
 class MatrixMath{
-    /// <summary> MultoplySclar is an instance tha multiply matrix by scalar </summary>
+    /// <summary>
+    /// MultoplySclar is an instance tha multiply matrix by scalar 
+    /// </summary>
    public static double[,] MultiplyScalar(double[,] matrix, double scalar) {
        int c = matrix.GetLength(0);
        int r = matrix.GetLength(1);

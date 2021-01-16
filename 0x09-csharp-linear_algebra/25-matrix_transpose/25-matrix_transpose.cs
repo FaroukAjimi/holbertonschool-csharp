@@ -1,7 +1,11 @@
 using System;
-/// <summary> MatrixMath is a class for matrices operations </summary>
+/// <summary>
+/// MatrixMath is a class for matrices operations
+/// </summary>
 class MatrixMath{
-    /// <summary> Transpode is an instance that performs matrix tranposition </summary>
+    /// <summary>
+    /// Transpode is an instance that performs matrix tranposition
+    /// </summary>
     public static double[,] Transpose(double[,] matrix){
         double[,] mat2 = new double[matrix.GetLength(1),matrix.GetLength(0)];
         for(var i = 0; i < matrix.GetLength(0); i++)

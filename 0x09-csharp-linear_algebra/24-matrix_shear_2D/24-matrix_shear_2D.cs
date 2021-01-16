@@ -1,7 +1,11 @@
 using System;
-/// <summary> MatrixMath is a class for matrices operations </summary>
+/// <summary>
+/// MatrixMath is a class for matrices operations
+/// </summary>
 class MatrixMath{
-    /// <summary> Shear2D is an instance that shears a matrix </summary>
+    /// <summary>
+    /// Shear2D is an instance that shears a matrix
+    /// </summary>
     public static double[,] Shear2D(double[,] matrix, char direction, double factor){
         if (matrix.GetLength(0) != 2 || matrix.GetLength(1) != 2)
             return (new double[,] {{-1}});

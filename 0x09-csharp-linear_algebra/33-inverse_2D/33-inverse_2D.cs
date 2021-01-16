@@ -1,7 +1,11 @@
 using System;
-/// <summary> Class for matrix opertaions </summary>
+/// <summary>
+/// Class for matrix opertaions 
+/// </summary>
 class MatrixMath{
-    /// <summary> inversed 2d matrix </summary>
+    /// <summary> 
+    /// inversed 2d matrix 
+    /// </summary>
     public static double[,] Inverse2D(double[,] matrix){
         if (matrix.GetLength(0) != 2 && matrix.GetLength(1) != 2)
             return(new double[,] {{-1}});

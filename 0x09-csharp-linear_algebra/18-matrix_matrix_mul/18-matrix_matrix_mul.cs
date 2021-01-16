@@ -1,7 +1,11 @@
 using System;
-/// <summary> MatrixMath is a class for matrices operations </summary>
+/// <summary>
+/// MatrixMath is a class for matrices operations 
+/// </summary>
  class MatrixMath{
-     /// <summary> Multyiply is an instance that multiplies two matrices </summary>
+     /// <summary>
+     /// Multyiply is an instance that multiplies two matrices
+     /// </summary>
     public static double[,] Multiply(double[,] matrix1, double[,] matrix2){
         double[,] mul1 = new double[matrix1.GetLength(0), matrix2.GetLength(1)];
         if (matrix1.GetLength(1) != matrix2.GetLength(0))

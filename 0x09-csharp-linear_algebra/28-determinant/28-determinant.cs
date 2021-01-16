@@ -1,7 +1,11 @@
 using System;
-/// <summary> MatrixMath is a class for matrices operations </summary>
+/// <summary>
+/// MatrixMath is a class for matrices operations
+/// </summary>
 class MatrixMath{
-    /// <summary> Determinant is a function that calculates the matrix determinant </summary>
+    /// <summary>
+    /// Determinant is a function that calculates the matrix determinant
+    /// </summary>
     public static double Determinant(double[,] matrix){
         if (matrix.GetLength(0) == 2 && matrix.GetLength(1) == 2)
             return ((matrix[0,0] * matrix[1,1]) - (matrix[0,1] * matrix[1,0]));

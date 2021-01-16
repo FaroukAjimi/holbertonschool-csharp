@@ -1,8 +1,12 @@
 using System;
-/// <summary> VectorMath is a class specified for vectors caluculations </summary>
+/// <summary>
+/// VectorMath is a class specified for vectors caluculations 
+/// </summary>
 class VectorMath
 {
-    /// <summary> multiply is an instance that performs vectors multiplication by sclar </summary>
+    /// <summary> 
+    /// multiply is an instance that performs vectors multiplication by sclar 
+    /// </summary>
     public static double[] Multiply(double[] vector, double scalar){
         if (vector.Length > 3 || vector.Length < 2)
             return(new double[] {-1});

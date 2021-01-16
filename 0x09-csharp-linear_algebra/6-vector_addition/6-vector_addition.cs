@@ -1,9 +1,13 @@
 ﻿using System;
 
-    /// <summary> VectorMath is a class specified for vector calucluations </summary>
+    /// <summary>
+    /// VectorMath is a class specified for vector calucluations 
+    /// </summary>
     class VectorMath
     {
-        /// <summary> Add is an instance that performs the addition of two vectors </summary>
+        /// <summary>
+        /// Add is an instance that performs the addition of two vectors
+        /// </summary>
         public static double[] Add(double[] vector1, double[] vector2)
         {   
             double[] no =  {-1};

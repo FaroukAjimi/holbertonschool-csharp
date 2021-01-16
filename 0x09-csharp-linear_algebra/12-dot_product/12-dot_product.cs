@@ -1,8 +1,12 @@
 using System;
-/// <summary> VectorMath is a class specified for vector calculations </summary>
+/// <summary>
+/// VectorMath is a class specified for vector calculations
+/// </summary>
 class VectorMath
 {
-    /// <summary> DotProduct is an instance that performs vectors dot product</summary>
+    /// <summary>
+    /// DotProduct is an instance that performs vectors dot product
+    /// </summary>
     public static double DotProduct(double[] vector1, double[] vector2){
         if (vector1.Length != vector2.Length || vector1.Length < 2 || vector1.Length > 3)
             return(-1);
