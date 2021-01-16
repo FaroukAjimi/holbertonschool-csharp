@@ -9,3 +9,4 @@ C:\Users\benaj\holberton\0x09-csharp-linear_algebra\12-dot_product\bin\Debug\net
 C:\Users\benaj\holberton\0x09-csharp-linear_algebra\12-dot_product\bin\Debug\netcoreapp2.1\12-dot_product.pdb
 C:\Users\benaj\holberton\0x09-csharp-linear_algebra\12-dot_product\obj\Debug\netcoreapp2.1\12-dot_product.dll
 C:\Users\benaj\holberton\0x09-csharp-linear_algebra\12-dot_product\obj\Debug\netcoreapp2.1\12-dot_product.pdb
+C:\Users\benaj\holberton\0x09-csharp-linear_algebra\12-dot_product\bin\Debug\netcoreapp2.1\12-dot_product.xml
