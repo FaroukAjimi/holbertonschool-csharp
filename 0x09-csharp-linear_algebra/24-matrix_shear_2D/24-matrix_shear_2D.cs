@@ -14,7 +14,7 @@ class MatrixMath{
             matrix[0,0] = Math.Round(matrix[0,0] + factor * matrix[0,1], 2);
             matrix[1,0] = Math.Round(matrix[1,0] + factor * matrix[1,1], 2);
         }
-        if (direction == 'y')
+        else if (direction == 'y')
         {
             matrix[0,1] = Math.Round(matrix[0,1] + factor * matrix[0,0], 2);
             matrix[1,1] = Math.Round(matrix[1,1] + factor * matrix[1,0], 2);
