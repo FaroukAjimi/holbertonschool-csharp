@@ -1,4 +1,5 @@
 using System;
+
 /// <summary>
 /// Class for matrix opertaions 
 /// </summary>
@@ -17,7 +18,7 @@ class MatrixMath{
         if (fmla == 0)
             return(new double[,] {{-1}});
         double[,] inverted = new double[,] {{Math.Round(d/fmla, 2),Math.Round(-b/fmla, 2)},
-                                            {Math.Round(-c/fmla, 2),Math.Round(a/fmlan, 2)}};
+                                            {Math.Round(-c/fmla, 2),Math.Round(a/fmla, 2)}};
         return(inverted);        
     }
 }

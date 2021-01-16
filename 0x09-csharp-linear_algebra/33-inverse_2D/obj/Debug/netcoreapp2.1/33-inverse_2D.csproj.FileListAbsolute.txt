@@ -9,3 +9,4 @@ C:\Users\benaj\holberton\0x09-csharp-linear_algebra\33-inverse_2D\obj\Debug\netc
 C:\Users\benaj\holberton\0x09-csharp-linear_algebra\33-inverse_2D\obj\Debug\netcoreapp2.1\33-inverse_2D.AssemblyInfo.cs
 C:\Users\benaj\holberton\0x09-csharp-linear_algebra\33-inverse_2D\obj\Debug\netcoreapp2.1\33-inverse_2D.dll
 C:\Users\benaj\holberton\0x09-csharp-linear_algebra\33-inverse_2D\obj\Debug\netcoreapp2.1\33-inverse_2D.pdb
+C:\Users\benaj\holberton\0x09-csharp-linear_algebra\33-inverse_2D\bin\Debug\netcoreapp2.1\33-inverse_2D.xml

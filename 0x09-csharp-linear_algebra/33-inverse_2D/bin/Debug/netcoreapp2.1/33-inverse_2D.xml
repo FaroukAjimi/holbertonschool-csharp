@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>33-inverse_2D</name>
+    </assembly>
+    <members>
+        <member name="T:MatrixMath">
+            <summary>
+            Class for matrix opertaions 
+            </summary>
+        </member>
+        <member name="M:MatrixMath.Inverse2D(System.Double[0:,0:])">
+            <summary> 
+            inversed 2d matrix 
+            </summary>
+        </member>
+    </members>
+</doc>
