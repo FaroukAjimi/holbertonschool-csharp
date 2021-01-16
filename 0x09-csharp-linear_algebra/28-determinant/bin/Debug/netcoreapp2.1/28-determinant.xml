@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>28-determinant</name>
+    </assembly>
+    <members>
+        <member name="T:MatrixMath">
+            <summary>
+            MatrixMath is a class for matrices operations
+            </summary>
+        </member>
+        <member name="M:MatrixMath.Determinant(System.Double[0:,0:])">
+            <summary>
+            Determinant is a function that calculates the matrix determinant
+            </summary>
+        </member>
+    </members>
+</doc>

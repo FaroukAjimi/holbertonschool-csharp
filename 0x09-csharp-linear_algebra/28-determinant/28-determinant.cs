@@ -8,7 +8,7 @@ class MatrixMath{
     /// </summary>
     public static double Determinant(double[,] matrix){
         if (matrix.GetLength(0) == 2 && matrix.GetLength(1) == 2)
-            return ((matrix[0,0] * matrix[1,1]) - (matrix[0,1] * matrix[1,0]));
+            return Math.Round(matrix[0,0] * matrix[1,1] - matrix[0,1] * matrix[1,0], 2);
         else if (matrix.GetLength(0) == 3 && matrix.GetLength(1) == 3)
         {
             double s1 = matrix[0,0] * (matrix[1,1] * matrix[2,2] - matrix[1,2] * matrix[2,1]);

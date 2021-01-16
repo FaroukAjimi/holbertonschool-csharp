@@ -9,3 +9,4 @@ C:\Users\benaj\holberton\0x09-csharp-linear_algebra\28-determinant\obj\Debug\net
 C:\Users\benaj\holberton\0x09-csharp-linear_algebra\28-determinant\obj\Debug\netcoreapp2.1\28-determinant.AssemblyInfo.cs
 C:\Users\benaj\holberton\0x09-csharp-linear_algebra\28-determinant\obj\Debug\netcoreapp2.1\28-determinant.dll
 C:\Users\benaj\holberton\0x09-csharp-linear_algebra\28-determinant\obj\Debug\netcoreapp2.1\28-determinant.pdb
+C:\Users\benaj\holberton\0x09-csharp-linear_algebra\28-determinant\bin\Debug\netcoreapp2.1\28-determinant.xml
