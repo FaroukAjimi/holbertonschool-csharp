@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>20-matrix_rotate_2D</name>
+    </assembly>
+    <members>
+        <member name="T:MatrixMath">
+            <summary>
+            MatrixMath is a class for matrices operations
+            </summary>
+        </member>
+        <member name="M:MatrixMath.Rotate2D(System.Double[0:,0:],System.Double)">
+            <summary>
+            Rotated2D is an instance that roates matrice by angle
+            </summary>
+        </member>
+    </members>
+</doc>

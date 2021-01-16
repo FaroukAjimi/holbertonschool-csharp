@@ -9,3 +9,4 @@ C:\Users\benaj\holberton\0x09-csharp-linear_algebra\20-matrix_rotate_2D\bin\Debu
 C:\Users\benaj\holberton\0x09-csharp-linear_algebra\20-matrix_rotate_2D\bin\Debug\netcoreapp2.1\20-matrix_rotate_2D.pdb
 C:\Users\benaj\holberton\0x09-csharp-linear_algebra\20-matrix_rotate_2D\obj\Debug\netcoreapp2.1\20-matrix_rotate_2D.dll
 C:\Users\benaj\holberton\0x09-csharp-linear_algebra\20-matrix_rotate_2D\obj\Debug\netcoreapp2.1\20-matrix_rotate_2D.pdb
+C:\Users\benaj\holberton\0x09-csharp-linear_algebra\20-matrix_rotate_2D\bin\Debug\netcoreapp2.1\20-matrix_rotate_2D.xml
