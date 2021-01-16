@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>3-magnitude</name>
+    </assembly>
+    <members>
+        <member name="T:VectorMath">
+            <summary> VectorMath is Class Specified for Vectors Caluculations </summary>
+        </member>
+        <member name="M:VectorMath.Magnitude(System.Double[])">
+            <summary> Magnitude is method of Length of a vector </summary>
+        </member>
+    </members>
+</doc>
