@@ -1,0 +1,11 @@
+C:\Users\benaj\holberton\0x0A-csharp-generics\5-concatenate\obj\Debug\netcoreapp2.1\5-concatenate.csprojAssemblyReference.cache
+C:\Users\benaj\holberton\0x0A-csharp-generics\5-concatenate\obj\Debug\netcoreapp2.1\5-concatenate.csproj.CoreCompileInputs.cache
+C:\Users\benaj\holberton\0x0A-csharp-generics\5-concatenate\obj\Debug\netcoreapp2.1\5-concatenate.AssemblyInfoInputs.cache
+C:\Users\benaj\holberton\0x0A-csharp-generics\5-concatenate\obj\Debug\netcoreapp2.1\5-concatenate.AssemblyInfo.cs
+C:\Users\benaj\holberton\0x0A-csharp-generics\5-concatenate\bin\Debug\netcoreapp2.1\5-concatenate.deps.json
+C:\Users\benaj\holberton\0x0A-csharp-generics\5-concatenate\bin\Debug\netcoreapp2.1\5-concatenate.runtimeconfig.json
+C:\Users\benaj\holberton\0x0A-csharp-generics\5-concatenate\bin\Debug\netcoreapp2.1\5-concatenate.runtimeconfig.dev.json
+C:\Users\benaj\holberton\0x0A-csharp-generics\5-concatenate\bin\Debug\netcoreapp2.1\5-concatenate.dll
+C:\Users\benaj\holberton\0x0A-csharp-generics\5-concatenate\bin\Debug\netcoreapp2.1\5-concatenate.pdb
+C:\Users\benaj\holberton\0x0A-csharp-generics\5-concatenate\obj\Debug\netcoreapp2.1\5-concatenate.dll
+C:\Users\benaj\holberton\0x0A-csharp-generics\5-concatenate\obj\Debug\netcoreapp2.1\5-concatenate.pdb
