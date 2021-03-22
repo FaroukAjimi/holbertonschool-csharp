@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>3-peek</name>
+    </assembly>
+    <members>
+        <member name="T:Queue`1">
+            <summary> generic class Queue </summary>
+        </member>
+        <member name="M:Queue`1.CheckType">
+            <summary> class method </summary>
+        </member>
+        <member name="M:Queue`1.Enqueue(`0)">
+            <summary> enqueue </summary>
+        </member>
+        <member name="M:Queue`1.Dequeue">
+            <summary> dequeue </summary>
+        </member>
+        <member name="M:Queue`1.Count">
+            <summary> count </summary>
+        </member>
+        <member name="T:Queue`1.Node">
+            <summary> summary class </summary>
+        </member>
+        <member name="M:Queue`1.Node.#ctor(`0)">
+            <summary> const </summary>
+        </member>
+    </members>
+</doc>
