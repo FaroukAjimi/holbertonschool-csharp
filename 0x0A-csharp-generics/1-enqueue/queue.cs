@@ -31,8 +31,9 @@ class Queue<T>
         }
 ///<summary> summary class </summary>
 public class Node{
-    public T value {get; set;} = default;
-    public Node next {get; set;} = default;
+    public T value {get; set;}
+    public Node next {get; set;}
+    
     ///<summary> const </summary>
     public Node(T value)
          {
