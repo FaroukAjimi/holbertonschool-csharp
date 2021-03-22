@@ -14,13 +14,11 @@ class Queue<T>
     public void Enqueue(T val) {
         if (head == null)
         {
-            Node newHead = new Node();
-            newHead.value = val;
+            Node newHead = new Node(val);
             head = tail = newHead;
         }
         else{
-            Node NewTail = new Node();
-            NewTail.value = val;
+            Node NewTail = new Node(val);
             tail.next = NewTail;
             tail = NewTail;
         }
@@ -33,10 +31,10 @@ public class Node{
     public T value {get; set;} = default;
     public Node next {get; set;} = default;
     
-    // public Node(T value)
-    //     {
-    //         this.value = value;
-    //     }
+    public Node(T value)
+         {
+             this.value = value;
+         }
 } 
 }
 
