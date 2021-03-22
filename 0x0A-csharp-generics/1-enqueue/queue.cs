@@ -11,6 +11,7 @@ class Queue<T>
     {
         return(typeof(T));
     }
+    ///<summary> enqueue </summary>
     public void Enqueue(T val) {
         if (head == null)
         {
@@ -24,13 +25,15 @@ class Queue<T>
         }
         count++;
     }
+    ///<summary> count </summary>
     public int Count(){
         return count;
         }
+///<summary> summary class </summary>
 public class Node{
     public T value {get; set;} = default;
     public Node next {get; set;} = default;
-    
+    ///<summary> const </summary>
     public Node(T value)
          {
              this.value = value;
