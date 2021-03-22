@@ -51,6 +51,8 @@ class Queue<T>
     }
     public void Print()
     {
+        if (head == null)
+        Console.WriteLine("Queue is empty");
         while(head != null)
         {
             Console.WriteLine(head.value);
