@@ -4,7 +4,7 @@
     public abstract class Base
     {
      ///<summary> overrider </summary>
-    public string name {get; set;}
+    private string name {get; set;}
      ///<summary> overrider </summary>
     public override string ToString()
     {
@@ -42,6 +42,8 @@
         ///<summary> overrider </summary>
         /// <value>Getter and setter</value>
         public bool isCollected {get; set;}
+        ///<summary>  override </summary>
+        public string name {get; set;}
         ///<summary> overrider </summary>
         public void Interact(){
             // Method implementation.

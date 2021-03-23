@@ -50,6 +50,9 @@
             <summary> overrider </summary>
              <value>Getter and setter</value>
         </member>
+        <member name="P:TestObject.name">
+            <summary>  override </summary>
+        </member>
         <member name="M:TestObject.Interact">
             <summary> overrider </summary>
         </member>
