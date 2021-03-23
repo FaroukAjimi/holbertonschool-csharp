@@ -33,8 +33,7 @@
      ///<summary> overrider </summary>
     public class Door : Base, IInteractive{
     ///<summary> overrider </summary>
-    public Door(string value){
-            value = "Door";
+    public Door(string value= "Door"){
             this.name = value;
     }
      ///<summary> overrider </summary>
