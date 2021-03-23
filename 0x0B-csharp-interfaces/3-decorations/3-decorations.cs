@@ -59,7 +59,7 @@
          ///<summary> overrider </summary>
         public void Interact()
         {
-            if (this.durability == 0)
+            if (this.durability <= 0)
                 Console.WriteLine($"The {name} has been broken.");
             else
             {
