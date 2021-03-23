@@ -60,23 +60,23 @@
         public void Interact()
         {
             if (this.durability <= 0)
-                Console.WriteLine($"The {name} has been broken.");
+                Console.WriteLine($"The {this.name} has been broken.");
             else
             {
             if (isQuestItem is true)
-                Console.WriteLine($"You look at the {name}. There's a key inside.");
+                Console.WriteLine($"You look at the {this.name}. There's a key inside.");
             else
-                Console.WriteLine($"You look at the {name}. Not much to see here");
+                Console.WriteLine($"You look at the {this.name}. Not much to see here");
             }
         }
          ///<summary> overrider </summary>
         public void Break(){
             durability--;
             if (this.durability > 0)
-                Console.WriteLine($"You hit the {name}. It cracks.");
-            if (this.durability == 0)
-                Console.WriteLine($"You smash the {name}. What a mess.");
-            if (this.durability < 0)
-                Console.WriteLine($"The {name} is already broken.");
+                Console.WriteLine($"You hit the {this.name}. It cracks.");
+            else if (this.durability == 0)
+                Console.WriteLine($"You smash the {this.name}. What a mess.");
+            else if (this.durability < 0)
+                Console.WriteLine($"The {this.name} is already broken.");
         }
 }
