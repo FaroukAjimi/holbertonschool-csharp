@@ -9,3 +9,4 @@ C:\Users\benaj\holberton\0x0B-csharp-interfaces\0-abstract_thinking\bin\Debug\ne
 C:\Users\benaj\holberton\0x0B-csharp-interfaces\0-abstract_thinking\bin\Debug\netcoreapp2.1\0-abstract_thinking.pdb
 C:\Users\benaj\holberton\0x0B-csharp-interfaces\0-abstract_thinking\obj\Debug\netcoreapp2.1\0-abstract_thinking.dll
 C:\Users\benaj\holberton\0x0B-csharp-interfaces\0-abstract_thinking\obj\Debug\netcoreapp2.1\0-abstract_thinking.pdb
+C:\Users\benaj\holberton\0x0B-csharp-interfaces\0-abstract_thinking\bin\Debug\netcoreapp2.1\0-abstract_thinking.xml

@@ -1,10 +1,11 @@
 ﻿using System;
 
     ///<summary> base class </summary>
-    class Base
+    public abstract class Base
     {
-    // properties
+    ///<summary> properties </summary>
     public String name {get; set;}
+     ///<summary> overrider </summary>
     public override string ToString()
     {
         return $"{name} is a {this.GetType()}";
