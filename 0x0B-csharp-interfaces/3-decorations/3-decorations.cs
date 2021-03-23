@@ -51,7 +51,7 @@
         public Decoration(string v1= "Decoration", int v2= 1, bool v3 = false)
         {
             if (v2 <= 0)
-                throw new Exception("Durability must be greater than 0");
+                throw new System.ArgumentException("Durability must be greater than 0");
             this.name = v1;
             this.durability = v2;
             this.isQuestItem = v3;            
