@@ -12,8 +12,7 @@
     }
     }
 
-
-
+    
      ///<summary> overrider </summary>
     public interface IInteractive {
          ///<summary> overrider </summary>
@@ -22,7 +21,6 @@
      ///<summary> overrider </summary>
     public interface IBreakable{
          ///<summary> overrider </summary>
-         ///<value> durability prop </value>
          int durability {get; set;}
           ///<summary> overrider </summary>
          void Break();
@@ -30,7 +28,6 @@
      ///<summary> overrider </summary>
     public interface ICollectable{
          ///<summary> overrider </summary>
-         ///<value> durability prop </value>
         bool isCollected {get; set;}
          ///<summary> overrider </summary>
         void Collect();
@@ -38,15 +35,13 @@
      ///<summary> overrider </summary>
     public class TestObject : Base, IInteractive, IBreakable, ICollectable{
          ///<summary> overrider </summary>
+        public int durability {get; set;}
+        ///<summary> overrider </summary>
+        public bool isCollected {get; set;}
+        ///<summary> overrider </summary>
         public void Interact(){} 
          ///<summary> overrider </summary>
-         ///<value> durability prop </value>
-        public int durability {get; set;}
-         ///<summary> overrider </summary>
-        public void Break(){}
-         ///<summary> overrider </summary>
-         ///<value> durability prop </value>
-        public bool isCollected {get; set;}
+        public void Break(){}   
          ///<summary> overrider </summary>
         public void Collect(){}
     }

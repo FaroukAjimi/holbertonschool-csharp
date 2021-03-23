@@ -40,16 +40,16 @@
         <member name="T:TestObject">
             <summary> overrider </summary>
         </member>
-        <member name="M:TestObject.Interact">
-            <summary> overrider </summary>
-        </member>
         <member name="P:TestObject.durability">
             <summary> overrider </summary>
         </member>
-        <member name="M:TestObject.Break">
+        <member name="P:TestObject.isCollected">
             <summary> overrider </summary>
         </member>
-        <member name="P:TestObject.isCollected">
+        <member name="M:TestObject.Interact">
+            <summary> overrider </summary>
+        </member>
+        <member name="M:TestObject.Break">
             <summary> overrider </summary>
         </member>
         <member name="M:TestObject.Collect">
