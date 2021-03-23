@@ -50,14 +50,23 @@
          ///<summary> overrider </summary>
         public int durability {get; set;}
          ///<summary> overrider </summary>
-        public Decoration(string name= "Decoration", int durability= 1, bool isQuestItem = false)
-        {
-            if (durability <= 0)
-                throw new System.ArgumentException("Durability must be greater than 0");
-            this.name = name;
-            this.durability = durability;
-            this.isQuestItem = isQuestItem;            
-        }
+        // public Decoration(string name= "Decoration", int durability= 1, bool isQuestItem = false)
+        // {
+        //     if (durability <= 0)
+        //         throw new System.ArgumentException("Durability must be greater than 0");
+        //     this.name = name;
+        //     this.durability = durability;
+        //     this.isQuestItem = isQuestItem;            
+        // }
+        public Decoration(string name = "Decoration", int durability = 1, bool isQuestItem = false)
+    {
+        if (durability <= 0)
+            throw new System.ArgumentException("Durability must be greater than 0");
+
+        this.name = name;
+        this.durability = durability;
+        this.isQuestItem = isQuestItem;
+    }
          ///<summary> overrider </summary>
         public void Interact()
         {
