@@ -14,60 +14,66 @@
             <summary> overrider </summary>
         </member>
         <member name="T:IInteractive">
-            <summary> overrider </summary>
+            <summary>
+            Interactive interface
+            </summary>
         </member>
         <member name="M:IInteractive.Interact">
-            <summary> overrider </summary>
+            <summary>
+            Used for interactions.
+            </summary>
         </member>
         <member name="T:IBreakable">
-            <summary> overrider </summary>
+            <summary>
+            IBreakable interface
+            </summary>
         </member>
         <member name="P:IBreakable.durability">
-            <summary> overrider </summary>
-             <value>Getter and setter</value>
+            <summary>
+            Used for item durability.
+            </summary>
+            <value>Getter and setter</value>
         </member>
         <member name="M:IBreakable.Break">
-            <summary> overrider </summary>
+            <summary>
+            Used to break an item.
+            </summary>
         </member>
         <member name="T:ICollectable">
-            <summary> overrider </summary>
+            <summary>
+            ICollectable interface
+            </summary>
         </member>
         <member name="P:ICollectable.isCollected">
-            <summary> overrider </summary>
-             <value>Getter and setter</value>
+            <summary>
+            Used to check if collected or not.
+            </summary>
+            <value>Getter and setter</value>
         </member>
         <member name="M:ICollectable.Collect">
-            <summary> overrider </summary>
+            <summary>
+            Used to collect something.
+            </summary>
         </member>
         <member name="T:TestObject">
             <summary> overrider </summary>
         </member>
         <member name="P:TestObject.durability">
-            <summary>
-            Used for item durability
-            </summary>
-            <value>Getter and setter</value>
+            <summary> overrider </summary>
+             <value>Getter and setter</value>
         </member>
         <member name="P:TestObject.isCollected">
-            <summary>
-            Used for collection
-            </summary>
-            <value></value>
+            <summary> overrider </summary>
+             <value>Getter and setter</value>
         </member>
         <member name="M:TestObject.Interact">
-            <summary>
-            Used for interaction
-            </summary>
+            <summary> overrider </summary>
         </member>
         <member name="M:TestObject.Break">
-            <summary>
-            Used to break item
-            </summary>
+            <summary> overrider </summary>
         </member>
         <member name="M:TestObject.Collect">
-            <summary>
-            Used to collect something
-            </summary>
+            <summary> overrider </summary>
         </member>
     </members>
 </doc>

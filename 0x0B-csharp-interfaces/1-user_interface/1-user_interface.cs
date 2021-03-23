@@ -12,78 +12,83 @@
     }
     }
 
-    
-     ///<summary> overrider </summary>
-    public interface IInteractive {
-         ///<summary> overrider </summary>
-        void Interact();
-    }
-     ///<summary> overrider </summary>
-    public interface IBreakable{
-         ///<summary> overrider </summary>
-         /// <value>Getter and setter</value>
-         int durability {get; set;}
-          ///<summary> overrider </summary>
-         void Break();
-    }
-     ///<summary> overrider </summary>
-    public interface ICollectable{
-         ///<summary> overrider </summary>
-         /// <value>Getter and setter</value>
-        bool isCollected {get; set;}
-         ///<summary> overrider </summary>
-        void Collect();
-    }
-     ///<summary> overrider </summary>
-    // public class TestObject : Base, IInteractive, IBreakable, ICollectable{
-    //      ///<summary> overrider </summary>
-    //      /// <value>Getter and setter</value>
-    //     public int durability {get; set;}
-    //     ///<summary> overrider </summary>
-    //     /// <value>Getter and setter</value>
-    //     public bool isCollected {get; set;}
-    //     ///<summary> overrider </summary>
-    //     public void Interact(){
-    //         // Method implementation.
-    //     } 
-    //      ///<summary> overrider </summary>
-    //     public void Break(){
-    //         // Method implementation.
-    //     }   
-    //      ///<summary> overrider </summary>
-    //     public void Collect(){
-    //         // Method implementation.
-    //     }
-    // }
-    public class TestObject : Base, IInteractive, IBreakable, ICollectable{
-
     /// <summary>
-    /// Used for item durability
+/// Interactive interface
+/// </summary>
+public interface IInteractive{
+    /// <summary>
+    /// Used for interactions.
+    /// </summary>
+    void Interact();
+}
+/// <summary>
+/// IBreakable interface
+/// </summary>
+public interface IBreakable{
+    /// <summary>
+    /// Used for item durability.
     /// </summary>
     /// <value>Getter and setter</value>
-    public int durability {get; set;}
+    int durability { get; set; }
     /// <summary>
-    /// Used for collection
+    /// Used to break an item.
     /// </summary>
-    /// <value></value>
-    public bool isCollected {get; set;}
-    /// <summary>
-    /// Used for interaction
-    /// </summary>
-    public void Interact(){
-        // Method implementation.
-    }
-    /// <summary>
-    /// Used to break item
-    /// </summary>
-    public void Break(){
-        // Method implementation.
-    }
-
-    /// <summary>
-    /// Used to collect something
-    /// </summary>
-    public void Collect(){
-        // Method implementation.
-    }
+    void Break();
 }
+/// <summary>
+/// ICollectable interface
+/// </summary>
+public interface ICollectable{
+    /// <summary>
+    /// Used to check if collected or not.
+    /// </summary>
+    /// <value>Getter and setter</value>
+    bool isCollected { get; set; }
+    /// <summary>
+    /// Used to collect something.
+    /// </summary>
+    void Collect();  
+}
+    //  ///<summary> overrider </summary>
+    // public interface IInteractive {
+    //      ///<summary> overrider </summary>
+    //     void Interact();
+    // }
+    //  ///<summary> overrider </summary>
+    // public interface IBreakable{
+    //      ///<summary> overrider </summary>
+    //      /// <value>Getter and setter</value>
+    //      int durability {get; set;}
+    //       ///<summary> overrider </summary>
+    //      void Break();
+    // }
+    //  ///<summary> overrider </summary>
+    // public interface ICollectable{
+    //      ///<summary> overrider </summary>
+    //      /// <value>Getter and setter</value>
+    //     bool isCollected {get; set;}
+    //      ///<summary> overrider </summary>
+    //     void Collect();
+    // }
+     ///<summary> overrider </summary>
+    public class TestObject : Base, IInteractive, IBreakable, ICollectable{
+         ///<summary> overrider </summary>
+         /// <value>Getter and setter</value>
+        public int durability {get; set;}
+        ///<summary> overrider </summary>
+        /// <value>Getter and setter</value>
+        public bool isCollected {get; set;}
+        ///<summary> overrider </summary>
+        public void Interact(){
+            // Method implementation.
+        } 
+         ///<summary> overrider </summary>
+        public void Break(){
+            // Method implementation.
+        }   
+         ///<summary> overrider </summary>
+        public void Collect(){
+            // Method implementation.
+        }
+    }
+   
