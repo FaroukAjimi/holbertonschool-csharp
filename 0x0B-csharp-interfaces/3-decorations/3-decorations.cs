@@ -41,7 +41,11 @@
         Console.WriteLine($"You try to open the {this.name}. It's locked.");
     }
     }
-    public class Decoration : Base, IInteractive, IBreakable
+
+/// <summary>
+/// Public Decoration class
+/// </summary>
+public class Decoration : Base, IInteractive, IBreakable
 {
     /// <summary>
     /// Public bool object
@@ -99,7 +103,6 @@
             Console.WriteLine("The {0} is already broken.", this.name);
     }
 }
-
 //      ///<summary> overrider </summary>
 //     public class Decoration : Base, IInteractive, IBreakable{
 //          ///<summary> overrider </summary>

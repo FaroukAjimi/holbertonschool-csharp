@@ -47,22 +47,34 @@
             <summary> overrider </summary>
         </member>
         <member name="T:Decoration">
-            <summary> overrider </summary>
+            <summary>
+            Public Decoration class
+            </summary>
         </member>
         <member name="P:Decoration.isQuestItem">
-            <summary> overrider </summary>
+            <summary>
+            Public bool object
+            </summary>
         </member>
         <member name="P:Decoration.durability">
-            <summary> overrider </summary>
+            <summary>
+            Public int object
+            </summary>
         </member>
         <member name="M:Decoration.#ctor(System.String,System.Int32,System.Boolean)">
-            <summary> overrider </summary>
+            <summary>
+            Class Constructor
+            </summary>
         </member>
         <member name="M:Decoration.Interact">
-            <summary> overrider </summary>
+            <summary>
+            Public method
+            </summary>
         </member>
         <member name="M:Decoration.Break">
-            <summary> overrider </summary>
+            <summary>
+            Public method that decrements durability by 1
+            </summary>
         </member>
     </members>
 </doc>
