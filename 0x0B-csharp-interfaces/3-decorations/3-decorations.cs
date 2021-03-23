@@ -63,7 +63,7 @@
                 Console.WriteLine($"The {this.name} has been broken.");
             else
             {
-            if (this.isQuestItem is true)
+            if (this.isQuestItem == true)
                 Console.WriteLine($"You look at the {this.name}. There's a key inside.");
             else
                 Console.WriteLine($"You look at the {this.name}. Not much to see here");
@@ -76,7 +76,7 @@
                 Console.WriteLine($"You hit the {this.name}. It cracks.");
             else if (this.durability == 0)
                 Console.WriteLine($"You smash the {this.name}. What a mess.");
-            else if (this.durability < 0)
+            else
                 Console.WriteLine($"The {this.name} is already broken.");
         }
 }
