@@ -64,12 +64,13 @@
         {
             if (this.durability <= 0)
                 Console.WriteLine("The {0} has been broken.", this.name);
+
             else
             {
             if (this.isQuestItem == true)
                 Console.WriteLine("You look at the {0}. There's a key inside.", this.name);
             else
-                Console.WriteLine("You look at the {0}. Not much to see here", this.name);
+                Console.WriteLine("You look at the {0}. Not much to see here.", this.name);
             }
         }
 
