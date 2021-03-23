@@ -35,23 +35,55 @@
         void Collect();
     }
      ///<summary> overrider </summary>
+    // public class TestObject : Base, IInteractive, IBreakable, ICollectable{
+    //      ///<summary> overrider </summary>
+    //      /// <value>Getter and setter</value>
+    //     public int durability {get; set;}
+    //     ///<summary> overrider </summary>
+    //     /// <value>Getter and setter</value>
+    //     public bool isCollected {get; set;}
+    //     ///<summary> overrider </summary>
+    //     public void Interact(){
+    //         // Method implementation.
+    //     } 
+    //      ///<summary> overrider </summary>
+    //     public void Break(){
+    //         // Method implementation.
+    //     }   
+    //      ///<summary> overrider </summary>
+    //     public void Collect(){
+    //         // Method implementation.
+    //     }
+    // }
     public class TestObject : Base, IInteractive, IBreakable, ICollectable{
-         ///<summary> overrider </summary>
-         /// <value>Getter and setter</value>
-        public int durability {get; set;}
-        ///<summary> overrider </summary>
-        /// <value>Getter and setter</value>
-        public bool isCollected {get; set;}
-        ///<summary> overrider </summary>
-        public void Interact(){
-            // Method implementation.
-        } 
-         ///<summary> overrider </summary>
-        public void Break(){
-            // Method implementation.
-        }   
-         ///<summary> overrider </summary>
-        public void Collect(){
-            // Method implementation.
-        }
+
+    /// <summary>
+    /// Used for item durability
+    /// </summary>
+    /// <value>Getter and setter</value>
+    public int durability {get; set;}
+    /// <summary>
+    /// Used for collection
+    /// </summary>
+    /// <value></value>
+    public bool isCollected {get; set;}
+    /// <summary>
+    /// Used for interaction
+    /// </summary>
+    public void Interact(){
+        // Method implementation.
     }
+    /// <summary>
+    /// Used to break item
+    /// </summary>
+    public void Break(){
+        // Method implementation.
+    }
+
+    /// <summary>
+    /// Used to collect something
+    /// </summary>
+    public void Collect(){
+        // Method implementation.
+    }
+}

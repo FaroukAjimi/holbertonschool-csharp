@@ -43,21 +43,31 @@
             <summary> overrider </summary>
         </member>
         <member name="P:TestObject.durability">
-            <summary> overrider </summary>
-             <value>Getter and setter</value>
+            <summary>
+            Used for item durability
+            </summary>
+            <value>Getter and setter</value>
         </member>
         <member name="P:TestObject.isCollected">
-            <summary> overrider </summary>
-             <value>Getter and setter</value>
+            <summary>
+            Used for collection
+            </summary>
+            <value></value>
         </member>
         <member name="M:TestObject.Interact">
-            <summary> overrider </summary>
+            <summary>
+            Used for interaction
+            </summary>
         </member>
         <member name="M:TestObject.Break">
-            <summary> overrider </summary>
+            <summary>
+            Used to break item
+            </summary>
         </member>
         <member name="M:TestObject.Collect">
-            <summary> overrider </summary>
+            <summary>
+            Used to collect something
+            </summary>
         </member>
     </members>
 </doc>
