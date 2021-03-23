@@ -71,7 +71,7 @@
         }
          ///<summary> overrider </summary>
         public void Break(){
-            durability--;
+            this.durability--;
             if (this.durability > 0)
                 Console.WriteLine($"You hit the {this.name}. It cracks.");
             else if (this.durability == 0)
