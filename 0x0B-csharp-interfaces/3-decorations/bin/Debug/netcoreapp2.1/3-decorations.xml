@@ -7,7 +7,7 @@
         <member name="T:Base">
             <summary> base class </summary>
         </member>
-        <member name="P:Base.name">
+        <member name="F:Base.name">
             <summary> overrider </summary>
         </member>
         <member name="M:Base.ToString">
