@@ -43,9 +43,15 @@
         /// <value>Getter and setter</value>
         public bool isCollected {get; set;}
         ///<summary> overrider </summary>
-        public void Interact(){} 
+        public void Interact(){
+            // Method implementation.
+        } 
          ///<summary> overrider </summary>
-        public void Break(){}   
+        public void Break(){
+            // Method implementation.
+        }   
          ///<summary> overrider </summary>
-        public void Collect(){}
+        public void Collect(){
+            // Method implementation.
+        }
     }

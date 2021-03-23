@@ -24,6 +24,7 @@
         </member>
         <member name="P:IBreakable.durability">
             <summary> overrider </summary>
+             <value>Getter and setter</value>
         </member>
         <member name="M:IBreakable.Break">
             <summary> overrider </summary>
@@ -33,6 +34,7 @@
         </member>
         <member name="P:ICollectable.isCollected">
             <summary> overrider </summary>
+             <value>Getter and setter</value>
         </member>
         <member name="M:ICollectable.Collect">
             <summary> overrider </summary>
@@ -42,9 +44,11 @@
         </member>
         <member name="P:TestObject.durability">
             <summary> overrider </summary>
+             <value>Getter and setter</value>
         </member>
         <member name="P:TestObject.isCollected">
             <summary> overrider </summary>
+             <value>Getter and setter</value>
         </member>
         <member name="M:TestObject.Interact">
             <summary> overrider </summary>
