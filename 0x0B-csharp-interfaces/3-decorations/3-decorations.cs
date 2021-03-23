@@ -50,36 +50,42 @@
          ///<summary> overrider </summary>
         public int durability {get; set;}
          ///<summary> overrider </summary>
-        // public Decoration(string name= "Decoration", int durability= 1, bool isQuestItem = false)
-        // {
-        //     if (durability <= 0)
-        //         throw new System.ArgumentException("Durability must be greater than 0");
-        //     this.name = name;
-        //     this.durability = durability;
-        //     this.isQuestItem = isQuestItem;            
-        // }
-        public Decoration(string name = "Decoration", int durability = 1, bool isQuestItem = false)
-    {
-        if (durability <= 0)
-            throw new System.ArgumentException("Durability must be greater than 0");
-
-        this.name = name;
-        this.durability = durability;
-        this.isQuestItem = isQuestItem;
-    }
-         ///<summary> overrider </summary>
-        public void Interact()
+        public Decoration(string name= "Decoration", int durability= 1, bool isQuestItem = false)
         {
-            if (this.durability <= 0)
-                Console.WriteLine("The {0} has been broken.", this.name);
-            else
-            {
+            if (durability <= 0)
+                throw new System.ArgumentException("Durability must be greater than 0");
+            this.name = name;
+            this.durability = durability;
+            this.isQuestItem = isQuestItem;            
+        }
+  
+         ///<summary> overrider </summary>
+        // public void Interact()
+        // {
+        //     if (this.durability <= 0)
+        //         Console.WriteLine("The {0} has been broken.", this.name);
+        //     else
+        //     {
+        //     if (this.isQuestItem == true)
+        //         Console.WriteLine("You look at the {0}. There's a key inside.", this.name);
+        //     else
+        //         Console.WriteLine("You look at the {0}. Not much to see here", this.name);
+        //     }
+        // }
+            public void Interact()
+    {
+        if (this.durability <= 0)
+            Console.WriteLine("The {0} has been broken.", this.name);
+
+        else
+        {
             if (this.isQuestItem == true)
                 Console.WriteLine("You look at the {0}. There's a key inside.", this.name);
+        
             else
-                Console.WriteLine("You look at the {0}. Not much to see here", this.name);
-            }
+                Console.WriteLine("You look at the {0}. Not much to see here.", this.name);
         }
+    }
          ///<summary> overrider </summary>
         public void Break(){
             this.durability--;
