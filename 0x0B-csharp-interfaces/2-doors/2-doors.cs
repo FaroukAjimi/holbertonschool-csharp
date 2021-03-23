@@ -4,7 +4,7 @@
     public abstract class Base
     {
      ///<summary> overrider </summary>
-    private String name {get; set;}
+    public String name {get; set;}
      ///<summary> overrider </summary>
     public override string ToString()
     {
@@ -32,12 +32,8 @@
     }
      ///<summary> overrider </summary>
     public class Door : Base, IInteractive{
-    ///<summary> overrider </summary>   
-    private String name {get; set;}
-    ///<summary> overrider </summary>   
-
-    public Door(string value){
-            value = "Door";
+    ///<summary> overrider </summary>
+    public Door(string value = "Door"){
             this.name = value;
     }
      ///<summary> overrider </summary>
