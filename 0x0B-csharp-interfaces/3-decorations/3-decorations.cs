@@ -48,13 +48,13 @@
          ///<summary> overrider </summary>
         public int durability {get; set;}
          ///<summary> overrider </summary>
-        public Decoration(string v1= "Decoration", int v2= 1, bool v3 = false)
+        public Decoration(string name= "Decoration", int durability= 1, bool isQuestItem = false)
         {
-            if (v2 <= 0)
-                throw new System.ArgumentException("Durability must be greater than 0");
-            this.name = v1;
-            this.durability = v2;
-            this.isQuestItem = v3;            
+            if (durability <= 0)
+                throw new Exception("Durability must be greater than 0");
+            this.name = name;
+            this.durability = durability;
+            this.isQuestItem = isQuestItem;            
         }
          ///<summary> overrider </summary>
         public void Interact()
@@ -71,7 +71,7 @@
         }
          ///<summary> overrider </summary>
         public void Break(){
-            this.durability--;
+            durability--;
             if (this.durability > 0)
                 Console.WriteLine($"You hit the {this.name}. It cracks.");
             else if (this.durability == 0)
