@@ -5,55 +5,45 @@
     </assembly>
     <members>
         <member name="T:Base">
-            <summary> base class </summary>
+            <summary>
+            Base class
+            </summary>
         </member>
         <member name="P:Base.name">
-            <summary> overrider </summary>
+            <summary>
+            Name property
+            </summary>
         </member>
         <member name="M:Base.ToString">
-            <summary> overrider </summary>
+            <summary>
+            Overrides ToString Method
+            </summary>
         </member>
         <member name="T:IInteractive">
-            <summary>
-            Interactive interface
-            </summary>
+            <summary> overrider </summary>
         </member>
         <member name="M:IInteractive.Interact">
-            <summary>
-            Used for interactions.
-            </summary>
+            <summary> overrider </summary>
         </member>
         <member name="T:IBreakable">
-            <summary>
-            IBreakable interface
-            </summary>
+            <summary> overrider </summary>
         </member>
         <member name="P:IBreakable.durability">
-            <summary>
-            Used for item durability.
-            </summary>
-            <value>Getter and setter</value>
+            <summary> overrider </summary>
+             <value>Getter and setter</value>
         </member>
         <member name="M:IBreakable.Break">
-            <summary>
-            Used to break an item.
-            </summary>
+            <summary> overrider </summary>
         </member>
         <member name="T:ICollectable">
-            <summary>
-            ICollectable interface
-            </summary>
+            <summary> overrider </summary>
         </member>
         <member name="P:ICollectable.isCollected">
-            <summary>
-            Used to check if collected or not.
-            </summary>
-            <value>Getter and setter</value>
+            <summary> overrider </summary>
+             <value>Getter and setter</value>
         </member>
         <member name="M:ICollectable.Collect">
-            <summary>
-            Used to collect something.
-            </summary>
+            <summary> overrider </summary>
         </member>
         <member name="T:TestObject">
             <summary> overrider </summary>
