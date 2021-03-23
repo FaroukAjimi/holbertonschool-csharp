@@ -4,7 +4,7 @@
     public abstract class Base
     {
      ///<summary> overrider </summary>
-    public String name {get; set;}
+    public string name {get; set;}
      ///<summary> overrider </summary>
     public override string ToString()
     {
