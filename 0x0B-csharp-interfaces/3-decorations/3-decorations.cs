@@ -63,7 +63,7 @@
                 Console.WriteLine($"The {this.name} has been broken.");
             else
             {
-            if (isQuestItem is true)
+            if (this.isQuestItem is true)
                 Console.WriteLine($"You look at the {this.name}. There's a key inside.");
             else
                 Console.WriteLine($"You look at the {this.name}. Not much to see here");
